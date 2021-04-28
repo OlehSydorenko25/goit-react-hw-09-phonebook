@@ -1,0 +1,22 @@
+.contactList {
+  display: block;
+  width: 500px;
+  padding: 0;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  background-color: #f7dae9;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.contact:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.contact button {
+  display: block;
+  margin-left: auto;
+}
